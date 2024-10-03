@@ -112,6 +112,7 @@ const showEmployeeInfo = (employeeName) =>{
     outputName.textContent = selectedEmployee.name;
     outputSurname.textContent = selectedEmployee.surname;
     outputCity.textContent = selectedEmployee.city;
+    outputPosition.textContent = selectedEmployee.position;
     outputExperience.textContent = selectedEmployee.experience;
     outputInfo.textContent = selectedEmployee.info;
 }

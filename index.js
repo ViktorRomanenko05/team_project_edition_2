@@ -1,6 +1,7 @@
 //Объект с данными сотрудников
 const employees ={
     yulya: {
+        previewPhoto: "LINK НА ФОТО",
         photo: "LINK НА ФОТО",
         name: "Yulya",
         surname: "Dietz",
@@ -11,6 +12,7 @@ const employees ={
     },
 
     lina: {
+        previewPhoto: "LINK НА ФОТО",
         photo: "LINK НА ФОТО",
         name: "Lina",
         surname: "Göbel",
@@ -21,6 +23,7 @@ const employees ={
     },
 
     tatiana: {
+        previewPhoto: "LINK НА ФОТО",
         photo: "LINK НА ФОТО",
         name: "Tatiana",
         surname: "N",
@@ -31,6 +34,7 @@ const employees ={
     },
 
     alexander: {
+        previewPhoto: "./pictures/devOps1.webp",
         photo: "./pictures/DevOps.webp",
         name: "Alexander",
         surname: "Anischenko",
@@ -42,6 +46,7 @@ const employees ={
     },
 
     viktor: {
+        previewPhoto: "./pictures/depositphotos_180736330-stock-illustration-logo-quality-assurance-qa-testing.jpg",
         photo: "./pictures/circle.png",
         name: "Viktor",
         surname: "Romanenko",
@@ -53,6 +58,7 @@ const employees ={
     },
 
     stanislav: {
+        previewPhoto: "LINK НА ФОТО",
         photo: "LINK НА ФОТО",
         name: "Stanislav",
         surname: "Borysenko",
@@ -93,12 +99,12 @@ const outputInfo = document.querySelector("#output-about-me");
 const backButton = document.querySelector("#button-back");
 
 //устанавливаем фото на страницу превью
-yulyaPicture.src = employees.yulya.photo;
-linaPicture.src = employees.lina.photo;
-tatianaPicture.src = employees.tatiana.photo;
-alexanderPicture.src = employees.alexander.photo;
-viktorPicture.src = employees.viktor.photo;
-stanislavPicture.src = employees.stanislav.photo;
+yulyaPicture.src = employees.yulya.previewPhoto;
+linaPicture.src = employees.lina.previewPhoto;
+tatianaPicture.src = employees.tatiana.previewPhoto;
+alexanderPicture.src = employees.alexander.previewPhoto;
+viktorPicture.src = employees.viktor.previewPhoto;
+stanislavPicture.src = employees.stanislav.previewPhoto;
 
 //Функция отображения данных сотрудника на странице профиля
 const showEmployeeInfo = (employeeName) =>{

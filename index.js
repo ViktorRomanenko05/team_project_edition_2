@@ -31,13 +31,14 @@ const employees ={
     },
 
     alexander: {
-        photo: "LINK НА ФОТО",
+        photo: "./pictures/DevOps.webp",
         name: "Alexander",
         surname: "Anischenko",
-        city: "Berlin",
+        city: "Worms",
         position: "DevOps",
         experience: "10 years",
-        info: "Hi, I`m here",
+        info: "DevOps professional with 10 years of experience, specializing in automating workflows, \
+        optimizing systems, and enhancing collaboration between development and operations teams for efficient solutions.",
     },
 
     viktor: {

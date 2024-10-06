@@ -73,7 +73,7 @@ const employees ={
         name: "Stanislav",
         surname: "Borysenko",
         city: "Worldwide",
-        position: "Software engineer",
+        position: "Founder",
         experience: "10 years",
         info: "I am creative and innovative head of the business. I have experience in creating more\
                than 10 successful start-ups.",

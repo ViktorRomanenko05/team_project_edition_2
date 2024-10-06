@@ -45,6 +45,15 @@
     align-items: center;
     height: 100%;
   }
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    font-size: 26px;
+    border-top: 1px solid;
+  }
   
   .person-preview {
     display: flex;

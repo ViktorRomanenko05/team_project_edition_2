@@ -1,36 +1,46 @@
 //Объект с данными сотрудников
 const employees ={
     yulya: {
-        previewPhoto: "LINK НА ФОТО",
-        photo: "LINK НА ФОТО",
+        previewPhoto: "pictures/ceo.jpg",
+        photo: "pictures/ceo.jpg",
         name: "Yulya",
         surname: "Dietz",
-        city: "Berlin",
+        city: "Heidelberg",
         position: "CEO",
-        experience: "10 years",
-        info: "Hi, I`m here",
+        experience: "5 years in banking, 10 years in \
+                     franchise brokerage and advisory services",
+        info: "I create and set the company's vision and mission. \
+              Leading the development and execution of business strategy, along with motivating \
+              all employees, is also an important part of my work.",
     },
 
     lina: {
-        previewPhoto: "LINK НА ФОТО",
-        photo: "LINK НА ФОТО",
+        previewPhoto: "./pictures/code.jpg",
+        photo: "./pictures/code.jpg",
         name: "Lina",
         surname: "Göbel",
-        city: "Berlin",
-        position: "CTO",
-        experience: "10 years",
-        info: "Hi, I`m here",
+        city: "Lichtenfels",
+        position: "Back End",
+        experience: "10 years in IT",
+        info: "I am a dedicated back-end developer with 10\
+              years of experience in IT. I specialize in creating robust and\
+              scalable solutions, and I enjoy solving complex problems. In my\
+              free time, I explore new technologies and contribute to\
+              open-source projects.",
     },
 
     tatiana: {
-        previewPhoto: "LINK НА ФОТО",
-        photo: "LINK НА ФОТО",
+        previewPhoto: "pictures/Produktmanager1.png",
+        photo: "pictures/Produktmanager12.png",
         name: "Tatiana",
-        surname: "N",
+        surname: "Novikova",
         city: "Berlin",
         position: "Product manager",
         experience: "10 years",
-        info: "Hi, I`m here",
+        info: "I determine which customer requirements and\
+              overarching company goals a product or feature should meet. It\
+              defines how success is defined in a product and motivates a team\
+              to make that vision come true.",
     },
 
     alexander: {
@@ -58,14 +68,15 @@ const employees ={
     },
 
     stanislav: {
-        previewPhoto: "LINK НА ФОТО",
-        photo: "LINK НА ФОТО",
+        previewPhoto: "pictures/founder.jpg",
+        photo: "pictures/founder.jpg",
         name: "Stanislav",
         surname: "Borysenko",
-        city: "Berlin",
+        city: "Worldwide",
         position: "Software engineer",
         experience: "10 years",
-        info: "Hi, I`m here",
+        info: "I am creative and innovative head of the business. I have experience in creating more\
+               than 10 successful start-ups.",
     },
 };
 //Выбор необходимых элементов
